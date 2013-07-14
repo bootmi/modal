@@ -30,11 +30,11 @@
 
   Show the modal.
 
-### Dialog#hide()
+### Modal#hide()
 
-  Hide the dialog.
+  Hide the modal.
 
-### Dialog#toggle()
+### Modal#toggle()
 
   Toggle the status.
 
