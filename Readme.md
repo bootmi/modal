@@ -8,20 +8,36 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install twitter-bootstrap/modal
+    $ component install bootmi/modal
 
-## Copyright and license
+## Events
 
-Copyright 2012 Twitter, Inc.
+  - `show` the dialog is shown
+  - `hide` the dialog is hidden
+  - `escape` the dialog was closed via the escape key
+  - `close` the dialog was closed via the close button
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
+## API
 
-  [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+### Modal(options)
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+  Possible options are:
+
+  - `title` title of the dialog
+  - `message` message to show
+
+### Dialog#show()
+
+  Show the dialog.
+
+### Dialog#hide([ms])
+
+  Hide the dialog immediately or wait `ms`.
+
+### Dialog#addClass(name)
+
+  Add class `name`, useful for styling dialogs differently.
+
+## License
+
+  MIT

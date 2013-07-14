@@ -1,0 +1,1 @@
+module.exports = '<div class="modal hide">\n  <div class="modal-header">\n    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>\n    <h3>Modal header</h3>\n  </div>\n  <div class="modal-body">\n    <p>One fine body…</p>\n  </div>\n  <div class="modal-footer">\n  </div>\n</div>\n';
