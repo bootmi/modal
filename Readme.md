@@ -12,10 +12,14 @@
 
 ## Events
 
-  - `show` the dialog is shown
-  - `hide` the dialog is hidden
-  - `escape` the dialog was closed via the escape key
-  - `close` the dialog was closed via the close button
+  - `show` This event fires immediately when the show instance method
+    is called.
+  - `hide` This event is fired immediately when the hide instance
+    method has been called.
+  - `shown` This event is fired when the modal has been made visible
+    to the user (will wait for css transitions to complete).
+  - `hidden` This event is fired when the modal has finished being
+    hidden from the user (will wait for css transitions to complete).
 
 ## API
 
