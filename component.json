@@ -2,11 +2,12 @@
   "name": "modal",
   "repo": "twitter-bootstrap/modal",
   "description": "Streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [ "twitter", "bootstrap", "modal" ],
   "dependencies": {
     "component/jquery": "1.8.2",
-    "twitter-bootstrap/buttons": "0.0.1"
+    "twitter-bootstrap/buttons": "1.0.0",
+    "twitter-bootstrap/misc": "0.0.1"
   },
   "development": {},
   "license": "Apache",
