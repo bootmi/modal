@@ -19,24 +19,24 @@
 
 ## API
 
-### Modal(options)
+### modal(options)
 
   Possible options are:
 
-  - `title` title of the dialog
+  - `title` title of the modal
   - `message` message to show
 
-### Dialog#show()
+### Modal#show()
 
-  Show the dialog.
+  Show the modal.
 
-### Dialog#hide([ms])
+### Dialog#hide()
 
-  Hide the dialog immediately or wait `ms`.
+  Hide the dialog.
 
-### Dialog#addClass(name)
+### Dialog#toggle()
 
-  Add class `name`, useful for styling dialogs differently.
+  Toggle the status.
 
 ## License
 
