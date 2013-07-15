@@ -7,7 +7,10 @@ var o = require('jquery')
   , bind = require('bind')
   , each = require('each')
   , template = require('./template');
-require('./modal.js');
+
+// load jquery plugin
+
+require('modal');
 
 /**
  * Module exports.

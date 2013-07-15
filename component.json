@@ -8,18 +8,13 @@
     "component/jquery": "*",
     "component/bind": "*",
     "component/each": "*",
-    "twitter-bootstrap/buttons": "1.0.0",
-    "twitter-bootstrap/misc": "0.0.1"
+    "twitter-bootstrap/modal": "0.0.3"
   },
   "development": {},
   "license": "Apache",
   "main": "index.js",
   "scripts": [
     "index.js",
-    "modal.js",
     "template.js"
-  ],
-  "styles": [
-    "modal.css"
   ]
 }
