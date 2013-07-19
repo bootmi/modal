@@ -31,7 +31,6 @@ module.exports = function(options){
   ];
   each(methods, function(method){
     wrapper[method] = function(){
-      console.log(el.modal);
       bind(el, el.modal, method).apply(null, arguments);
     };
   });
