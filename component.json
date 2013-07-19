@@ -2,7 +2,7 @@
   "name": "modal",
   "repo": "bootmi/modal",
   "description": "Streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [ "twitter", "bootstrap", "modal" ],
   "dependencies": {
     "component/jquery": "*",
